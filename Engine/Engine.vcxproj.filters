@@ -1,0 +1,233 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\config">
+      <UniqueIdentifier>{a994fff6-b9e6-4ccc-b2cb-dd9d478bf9d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\config">
+      <UniqueIdentifier>{705705ef-ec88-4ce4-9915-76e356b91db7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\model">
+      <UniqueIdentifier>{8296adc0-34aa-42ff-8341-ee569999dc08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\model">
+      <UniqueIdentifier>{763425fe-dd88-407c-a707-4a47befa5fc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shaders">
+      <UniqueIdentifier>{9fefc820-3890-4a7d-9a10-83be096b4d81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\shader">
+      <UniqueIdentifier>{038dcf30-e5ac-4887-9e3d-64f84085f72a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\shader">
+      <UniqueIdentifier>{64dd058c-45aa-45bc-bd9a-9154d3a18665}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\camera">
+      <UniqueIdentifier>{e85545e5-7a80-4f55-ac44-011513ed8f21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\camera">
+      <UniqueIdentifier>{c4fea6b0-e560-4de7-94df-c872e3cd174a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\util">
+      <UniqueIdentifier>{cda846eb-c328-4d7c-a2c1-3eebaad77107}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\util">
+      <UniqueIdentifier>{89a10cb4-f7ee-4535-915f-942508d3996e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\texture">
+      <UniqueIdentifier>{9992a687-0d3e-493e-94d0-90c3bd877b92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\texture">
+      <UniqueIdentifier>{47cfaef8-0a9e-4ed7-838a-2c4635667b5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\datastructure">
+      <UniqueIdentifier>{021ae325-ed24-4869-89ac-402001160978}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\datastructure\vertex">
+      <UniqueIdentifier>{e3162cfa-ceeb-46b4-b84b-538d88dfa8e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\datastructure\light">
+      <UniqueIdentifier>{449dac44-00f6-4401-9e52-1054fdfe758c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\datastructure\material">
+      <UniqueIdentifier>{8349eacf-11ac-42fc-81ea-8e2f2cf4040d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\algorithmtool">
+      <UniqueIdentifier>{a95b3258-79c8-44a1-888a-3db8f19d440e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\algorithmtool">
+      <UniqueIdentifier>{44ae364b-3365-4363-bb9a-54d5bb5f05a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\util\timer">
+      <UniqueIdentifier>{ffcd46d5-ea34-4f38-85da-43f32601d751}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\util\timer">
+      <UniqueIdentifier>{4a7b0b76-a8d2-48be-93ac-fa6389e35f97}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="systemclass.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="inputclass.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="graphicsclass.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="d3dclass.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="EngineConfig.cpp">
+      <Filter>源文件\config</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderBase.cpp">
+      <Filter>源文件\shader</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelBase.cpp">
+      <Filter>源文件\model</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>源文件\camera</Filter>
+    </ClCompile>
+    <ClCompile Include="PathManager.cpp">
+      <Filter>源文件\util</Filter>
+    </ClCompile>
+    <ClCompile Include="SphereModel.cpp">
+      <Filter>源文件\model</Filter>
+    </ClCompile>
+    <ClCompile Include="NormalShader.cpp">
+      <Filter>源文件\shader</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureBase.cpp">
+      <Filter>源文件\texture</Filter>
+    </ClCompile>
+    <ClCompile Include="RectangleModel.cpp">
+      <Filter>源文件\model</Filter>
+    </ClCompile>
+    <ClCompile Include="StringHelper.cpp">
+      <Filter>源文件\util</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderStateManager.cpp">
+      <Filter>源文件\util</Filter>
+    </ClCompile>
+    <ClCompile Include="SurfaceModel.cpp">
+      <Filter>源文件\model</Filter>
+    </ClCompile>
+    <ClCompile Include="OceanModel.cpp">
+      <Filter>源文件\model</Filter>
+    </ClCompile>
+    <ClCompile Include="MathHelper.cpp">
+      <Filter>源文件\util</Filter>
+    </ClCompile>
+    <ClCompile Include="FFT.cpp">
+      <Filter>源文件\algorithmtool</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>源文件\util\timer</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="systemclass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="inputclass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="graphicsclass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="d3dclass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineConfig.h">
+      <Filter>头文件\config</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderBase.h">
+      <Filter>头文件\shader</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelBase.h">
+      <Filter>头文件\model</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>头文件\camera</Filter>
+    </ClInclude>
+    <ClInclude Include="PathManager.h">
+      <Filter>头文件\util</Filter>
+    </ClInclude>
+    <ClInclude Include="SphereModel.h">
+      <Filter>头文件\model</Filter>
+    </ClInclude>
+    <ClInclude Include="NormalShader.h">
+      <Filter>头文件\shader</Filter>
+    </ClInclude>
+    <ClInclude Include="light.h">
+      <Filter>头文件\datastructure\light</Filter>
+    </ClInclude>
+    <ClInclude Include="MathHelper.h">
+      <Filter>头文件\util</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureBase.h">
+      <Filter>头文件\texture</Filter>
+    </ClInclude>
+    <ClInclude Include="RectangleModel.h">
+      <Filter>头文件\model</Filter>
+    </ClInclude>
+    <ClInclude Include="Vertex.h">
+      <Filter>头文件\datastructure\vertex</Filter>
+    </ClInclude>
+    <ClInclude Include="StringHelper.h">
+      <Filter>头文件\util</Filter>
+    </ClInclude>
+    <ClInclude Include="Material.h">
+      <Filter>头文件\datastructure\material</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderStateManager.h">
+      <Filter>头文件\util</Filter>
+    </ClInclude>
+    <ClInclude Include="SurfaceModel.h">
+      <Filter>头文件\model</Filter>
+    </ClInclude>
+    <ClInclude Include="OceanModel.h">
+      <Filter>头文件\model</Filter>
+    </ClInclude>
+    <ClInclude Include="FFT.h">
+      <Filter>头文件\algorithmtool</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>头文件\util\timer</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="shader\normal.vsh">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shader\normal.psh" />
+    <None Include="shader\Light.hlsl" />
+    <None Include="shader\Lambert.psh" />
+    <None Include="shader\Lambert.vsh" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="texture\earth.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="texture\moon.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

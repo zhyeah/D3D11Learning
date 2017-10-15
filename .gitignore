@@ -1,0 +1,5 @@
+# ignore the files under bin.
+Bin/
+Debug/
+DirectXTK/Bin/
+Engine/Debug/
