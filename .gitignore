@@ -1,6 +1,8 @@
 # ignore the files under bin.
 Bin/
 Debug/
+Release/
 DirectXTK/Bin/
 Engine/Debug/
+Engine/Release/
 .vs/

@@ -50,7 +50,7 @@ bool GraphicsClass::Initialize(int screenWidth, int screenHeight, HWND hwnd)
 	}
 
 	// Set the initial position of the camera.
-	m_camera->SetPosition(-30.0f, 30.0f, -30.0f);
+	m_camera->SetPosition(-60.0f, 60.0f, -60.0f);
 
 	// Create the model object.
 	m_model = new SphereModel;
@@ -113,8 +113,8 @@ bool GraphicsClass::Initialize(int screenWidth, int screenHeight, HWND hwnd)
 	}
 
 	m_ocean->SetMaterial(
-		XMVectorSet(0.01f, 0.01f, 0.02f, 1.0f),
-		XMVectorSet(0.1f, 0.3f, 0.7f, 1.0f),
+		XMVectorSet(0.04f, 0.04f, 0.2f, 1.0f),
+		XMVectorSet(0.2f, 0.2f, 0.7f, 1.0f),
 		XMVectorSet(0.4f, 0.4f, 0.8f, 10.0f),
 		XMVectorSet(0.0f, 0.0f, 0.0f, 1.0f)
 	);
@@ -247,7 +247,6 @@ bool GraphicsClass::Render(float dt)
 
 	XMFLOAT3 up = XMFLOAT3(0.0f, 1.0f, 0.0f);
 	XMMATRIX reflectViewMatrix = XMMatrixLookAtLH(positionVector, lookAtVector, XMLoadFloat3(&up));
-
 	
 	m_direct3D->GetProjectionMatrix(projectionMatrix);
 	
@@ -291,7 +290,7 @@ void GraphicsClass::InitializeLight(DirectionalLight& directionalLight, PointLig
 {
 	// Initialize directional light.
 	directionalLight.ambient = XMVectorSet(0.1f, 0.1f, 0.1f, 1.0f);
-	directionalLight.diffuse = XMVectorSet(0.4f, 0.4f, 0.4f, 1.0f);
+	directionalLight.diffuse = XMVectorSet(0.6f, 0.6f, 0.6f, 1.0f);
     directionalLight.specular = XMVectorSet(0.9f, 0.9f, 0.9f, 1.0f);
 	directionalLight.direction = XMVector4Normalize(XMVectorSet(0.0f, -1.0f, 1.0f, 0.0f));
 
